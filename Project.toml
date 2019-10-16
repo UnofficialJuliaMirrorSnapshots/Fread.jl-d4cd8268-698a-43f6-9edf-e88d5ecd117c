@@ -1,0 +1,17 @@
+name = "Fread"
+uuid = "d4cd8268-698a-43f6-9edf-e88d5ecd117c"
+authors = ["Dai ZJ <zhuojia.dai@gmail.com>"]
+version = "0.1.1-DEV"
+
+[deps]
+Feather = "becb17da-46f6-5d3c-ad1b-1c5fe96bc73c"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
